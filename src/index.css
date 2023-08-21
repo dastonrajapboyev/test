@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 424px;
+  height: 415px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.img{
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+.title{
+  padding: 0 10px;
+  margin-top: 20px;
+}
+.infoDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 6px;
+}
+.infoFooter{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px 10px 6px;
+  align-items: center;
+}
+.infoFooterLeft{
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+}
+.price{
+  background-color: #5e40b3;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 10px;
+}

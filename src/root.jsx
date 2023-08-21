@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "./main"
+import Main from "./components/main"
 
 class Root extends React.Component {
   render (){
     return (
-      <div>
+      <div className="wrapper">
         <Main />
       </div>
     )

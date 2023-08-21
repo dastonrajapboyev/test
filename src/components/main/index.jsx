@@ -1,15 +1,16 @@
 import React from "react";
 import { data } from "../../mock";
-import Card from "../card";
+import Card from "../Cards";
+// import { Card } from "..components/Card/Card";
 
 class Main extends React.Component {
   render() {
     return (
-      <div>
+      <>
         {data.map((item) => {
             return <Card data={item} />;
           })}
-      </div>
+      </>
     )
   }
 }
