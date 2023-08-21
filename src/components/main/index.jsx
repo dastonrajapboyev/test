@@ -8,7 +8,7 @@ class Main extends React.Component {
     return (
       <>
         {data.map((item) => {
-            return <Card data={item} />;
+            return <Card key={item.id} data={item} />;
           })}
       </>
     )
